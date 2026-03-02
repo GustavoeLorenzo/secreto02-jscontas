@@ -47,3 +47,5 @@ resultado = (primeiroNumero >= segundoNumero) && (segundoNumero > 3);
 document.getElementById('operadornao').textContent = `${primeiroNumero} >= ${segundoNumero} && ${segundoNumero } >= 3 = ${resultado}`;
 
 
+resultado = primeiroNumero ** segundoNumero;
+document.getElementById('potencia').textContent = `${primeiroNumero} ** ${segundoNumero} = ${resultado}`;
